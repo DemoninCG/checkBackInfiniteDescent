@@ -8,6 +8,17 @@ const chestButtonCooldowns = [300, 600, 900, 1200, 1800, 2700, 3600, 5400];
 const rarityColors = ["#bbb", "#0e0", "#02f", "#c3f", "#fb0", "#f00", "#6cf", "#306"];
 const rarityNames = ["common", "uncommon", "rare", "epic", "legendary", "mythical", "celestial", "void"];
 const rarityChances = [128, 64, 32, 16, 8, 4, 2, 1];
+/*
+const rarityChances = [
+    [192,64, 32, 16, 8,  4,  2,  1], //Common chest
+    [112,128,64, 24, 12, 6,  3,  1], //Uncommon chest
+    [64, 128,96, 48, 16, 8,  4,  2], //Rare chest
+    [48, 96, 128,72, 40, 16, 8,  4], //Epic chest
+    [32, 64, 96, 128,80, 40, 16, 8], //Legendary chest
+    [24, 48, 80, 112,112,72, 24, 12], //Mythical chest
+    [16, 32, 64, 96, 128,96, 48, 16], //Celestial chest
+    [8,  16, 32, 64, 96, 112,96, 48], //Void chest
+]*/
 const potionNames = ["tiny", "basic", "round", "triangular", "wide", "rotund", "large", "tall round", "tall triangular", "tall wide", "bulbous", "massive"];
 const potionChances = [15, 12, 9, 7, 5.5, 4, 3, 2.5, 2, 1.5, 1.2, 1];
 const potionXPGains = [0, 0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.5];
